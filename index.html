@@ -1,0 +1,62 @@
+<<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meine erste Webseite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 10px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .button {
+      display: inline-block;
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Willkommen auf meiner Webseite!</h1>
+    <p>Hier findest du alle Infos, die du brauchst.</p>
+  </header>
+
+  <section>
+    <h2>Über mich</h2>
+    <p>Ich bin 13 Jahre alt und lerne Programmieren. Diese Webseite habe ich selbst gemacht!</p>
+  </section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>Schreib mir eine E-Mail: <a href="mailto:deine@email.de">tueklubis@gmail.com</a></p>
+  </section>
+
+  <button class="button" onclick="alert('Danke fürs Klicken!')">Klick mich!</button>
+</body>
+</html>
